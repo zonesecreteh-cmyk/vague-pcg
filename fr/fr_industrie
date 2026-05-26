@@ -1,0 +1,102 @@
+{
+  "extends": "PCG_FR_2026",
+  "country_code": "FR",
+  "locale": "fr_FR",
+  "currency": "EUR",
+  "version": "2026",
+  "authority": "Génome ERP — Extension sectorielle",
+  "source": {
+    "type": "genome_extension",
+    "note": "Comptes supplémentaires spécifiques au secteur, à installer par-dessus fr_pcg.json"
+  },
+  "code": "FR_EXT_INDUSTRIE",
+  "name": "Industrie et fabrication",
+  "naf_codes": [
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33"
+  ],
+  "accounts": [
+    {
+      "code": "31000",
+      "name": "Matières premières",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "32100",
+      "name": "Matières consommables",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "33100",
+      "name": "Produits en cours de fabrication",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "35100",
+      "name": "Produits intermédiaires",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "35500",
+      "name": "Produits finis",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "60110",
+      "name": "Achats matières premières",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "60310",
+      "name": "Variation stocks matières premières",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "71330",
+      "name": "Variation stocks produits en cours",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "71350",
+      "name": "Variation stocks produits finis",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "72100",
+      "name": "Production immobilisée — fabrications internes",
+      "account_type": "INCOME",
+      "reconcile": false
+    }
+  ]
+}
