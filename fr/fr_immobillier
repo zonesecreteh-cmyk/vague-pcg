@@ -1,0 +1,74 @@
+{
+  "extends": "PCG_FR_2026",
+  "country_code": "FR",
+  "locale": "fr_FR",
+  "currency": "EUR",
+  "version": "2026",
+  "authority": "Génome ERP — Extension sectorielle",
+  "source": {
+    "type": "genome_extension",
+    "note": "Comptes supplémentaires spécifiques au secteur, à installer par-dessus fr_pcg.json"
+  },
+  "code": "FR_EXT_IMMOBILIER",
+  "name": "Promotion immobilière et agences",
+  "naf_codes": [
+    "41",
+    "68"
+  ],
+  "accounts": [
+    {
+      "code": "35510",
+      "name": "Programmes immobiliers en cours",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "35520",
+      "name": "Programmes immobiliers terminés",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "70410",
+      "name": "Ventes de logements",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70420",
+      "name": "Ventes de locaux commerciaux",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70820",
+      "name": "Commissions agence immobilière",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70830",
+      "name": "Honoraires gestion locative",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "60500",
+      "name": "Achats terrains et constructions à revendre",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "45810",
+      "name": "Acquéreurs — dépôts de garantie reçus",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "41810",
+      "name": "Créances sur ventes en état futur (VEFA)",
+      "account_type": "RECEIVABLE",
+      "reconcile": true
+    }
+  ]
+}
