@@ -1,0 +1,70 @@
+{
+  "extends": "PCG_FR_2026",
+  "country_code": "FR",
+  "locale": "fr_FR",
+  "currency": "EUR",
+  "version": "2026",
+  "authority": "Génome ERP — Extension sectorielle",
+  "source": {
+    "type": "genome_extension",
+    "note": "Comptes supplémentaires spécifiques au secteur, à installer par-dessus fr_pcg.json"
+  },
+  "code": "FR_EXT_MEDIA",
+  "name": "Médias, communication et édition",
+  "naf_codes": [
+    "18",
+    "59",
+    "60",
+    "73"
+  ],
+  "accounts": [
+    {
+      "code": "20500",
+      "name": "Droits d'auteur et droits voisins capitalisés",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "65110",
+      "name": "Redevances droits d'auteur versées",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "65160",
+      "name": "Droits de reproduction versés",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "62310",
+      "name": "Achats espaces publicitaires",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "70500",
+      "name": "Recettes publicitaires",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70510",
+      "name": "Ventes d'espaces médias",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "75110",
+      "name": "Redevances droits d'auteur reçues",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "75160",
+      "name": "Droits de reproduction reçus",
+      "account_type": "INCOME",
+      "reconcile": false
+    }
+  ]
+}
