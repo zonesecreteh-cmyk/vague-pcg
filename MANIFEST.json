@@ -1,15 +1,33 @@
 {
-  "version": "2025.1",
+  "version": "2026",
+  "updated_at": "2026-01-01",
+  "maintainer": "zonesecreteh-cmyk",
   "packages": [
     {
-      "code": "PCG_FR_2025",
+      "code": "PCG_FR_2026",
       "country": "FR",
       "locale": "fr_FR",
-      "name": "Plan Comptable Général (France 2025)",
-      "currency": "EUR",
       "file": "fr/fr_pcg.json",
-      "authority": "Autorité des Normes Comptables (ANC)",
-      "legal_reference": "Règlement ANC n°2014-03"
+      "accounts": 583,
+      "description": "Plan Comptable Général France — ANC 2026 complet"
     }
+  ],
+  "extensions": [
+    {"code": "FR_BTP",          "file": "fr/fr_btp.json",          "base": "PCG_FR_2026"},
+    {"code": "FR_AGRICULTURE",  "file": "fr/fr_agriculture.json",  "base": "PCG_FR_2026"},
+    {"code": "FR_ASSOCIATION",  "file": "fr/fr_association.json",  "base": "PCG_FR_2026"},
+    {"code": "FR_SCI",          "file": "fr/fr_sci.json",          "base": "PCG_FR_2026"},
+    {"code": "FR_LIBERAL",      "file": "fr/fr_liberal.json",      "base": "PCG_FR_2026"},
+    {"code": "FR_RESTAURATION", "file": "fr/fr_restauration.json", "base": "PCG_FR_2026"},
+    {"code": "FR_COMMERCE",     "file": "fr/fr_commerce.json",     "base": "PCG_FR_2026"},
+    {"code": "FR_TRANSPORT",    "file": "fr/fr_transport.json",    "base": "PCG_FR_2026"},
+    {"code": "FR_SANTE",        "file": "fr/fr_sante.json",        "base": "PCG_FR_2026"},
+    {"code": "FR_IMMOBILIER",   "file": "fr/fr_immobilier.json",   "base": "PCG_FR_2026"},
+    {"code": "FR_INDUSTRIE",    "file": "fr/fr_industrie.json",    "base": "PCG_FR_2026"},
+    {"code": "FR_NUMERIQUE",    "file": "fr/fr_numerique.json",    "base": "PCG_FR_2026"},
+    {"code": "FR_MEDIA",        "file": "fr/fr_media.json",        "base": "PCG_FR_2026"},
+    {"code": "FR_SPORT",        "file": "fr/fr_sport.json",        "base": "PCG_FR_2026"},
+    {"code": "FR_EDUCATION",    "file": "fr/fr_education.json",    "base": "PCG_FR_2026"},
+    {"code": "FR_HOLDING",      "file": "fr/fr_holding.json",      "base": "PCG_FR_2026"}
   ]
 }
