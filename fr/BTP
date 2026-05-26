@@ -1,0 +1,69 @@
+{
+  "extends": "PCG_FR_2026",
+  "country_code": "FR",
+  "locale": "fr_FR",
+  "currency": "EUR",
+  "version": "2026",
+  "authority": "Génome ERP — Extension sectorielle",
+  "source": {
+    "type": "genome_extension",
+    "note": "Comptes supplémentaires spécifiques au secteur, à installer par-dessus fr_pcg.json"
+  },
+  "code": "FR_EXT_BTP",
+  "name": "Bâtiment et Travaux Publics (BTP)",
+  "naf_codes": [
+    "41",
+    "42",
+    "43"
+  ],
+  "accounts": [
+    {
+      "code": "33500",
+      "name": "Travaux en cours — chantiers BTP",
+      "account_type": "ASSET",
+      "reconcile": false
+    },
+    {
+      "code": "41800",
+      "name": "Clients — retenues de garantie chantiers",
+      "account_type": "RECEIVABLE",
+      "reconcile": true
+    },
+    {
+      "code": "40800",
+      "name": "Fournisseurs — situations à payer",
+      "account_type": "PAYABLE",
+      "reconcile": false
+    },
+    {
+      "code": "60500",
+      "name": "Achats matériaux et travaux sous-traités",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "61100",
+      "name": "Sous-traitance chantiers",
+      "account_type": "EXPENSE",
+      "reconcile": false
+    },
+    {
+      "code": "70400",
+      "name": "Travaux facturés",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70410",
+      "name": "Situations de travaux facturées",
+      "account_type": "INCOME",
+      "reconcile": false
+    },
+    {
+      "code": "70420",
+      "name": "Révisions de prix sur travaux",
+      "account_type": "INCOME",
+      "reconcile": false
+    }
+  ]
+}
