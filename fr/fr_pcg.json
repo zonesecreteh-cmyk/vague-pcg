@@ -2292,7 +2292,7 @@
     {
       "code": "524",
       "name": "Jetons empruntés",
-      "account_type": "ASSET",
+      "account_type": "LIABILITY",
       "reconcile": false,
       "genome_extension": {
         "genome_account_group": "TOKENS",
